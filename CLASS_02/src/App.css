@@ -1,0 +1,45 @@
+
+li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+button {
+    display: inline-block;
+    padding: 5px 20px;
+    background: #7cf03d;
+    border: 2px solid #7cf03d;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #7cf03d;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    transition: .5s;
+}
+
+button:hover {
+    background: transparent;
+    color: #7cf03d;
+    box-shadow: none;
+}
+
+.navbar {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 550;
+    transition: .5s
+}
+
+.navbar:hover {
+    color: #7cf03d;
+}
+
+.navbar-container {
+    font-size: 20px;
+    font-weight: 500;
+    transition: 1.5s;
+}
+
+.content {
+    min-height: 100vh;
+}
