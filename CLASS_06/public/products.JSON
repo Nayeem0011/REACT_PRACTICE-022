@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "brand": "SoundMax",
+    "vendor": "TechStore",
+    "price": 59.99,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "offer": "10% off"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "brand": "TimePro",
+    "vendor": "GadgetWorld",
+    "price": 120,
+    "description": "Smart watch with heart rate monitor and GPS.",
+    "offer": "Free shipping"
+  },
+  {
+    "id": 3,
+    "name": "Gaming Mouse",
+    "brand": "ClickPro",
+    "vendor": "GameHub",
+    "price": 35.5,
+    "description": "Ergonomic gaming mouse with customizable buttons.",
+    "offer": "Buy 1 Get 1 Free"
+  },
+  {
+    "id": 4,
+    "name": "4K Monitor",
+    "brand": "ViewPlus",
+    "vendor": "ScreenMart",
+    "price": 300,
+    "description": "27 inch 4K UHD monitor with vibrant colors.",
+    "offer": "15% discount"
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "brand": "BeatBox",
+    "vendor": "MusicLand",
+    "price": 45,
+    "description": "Portable Bluetooth speaker with deep bass.",
+    "offer": "5% off"
+  },
+  {
+    "id": 6,
+    "name": "Fitness Tracker",
+    "brand": "FitLife",
+    "vendor": "HealthStore",
+    "price": 80,
+    "description": "Waterproof fitness tracker with step counter.",
+    "offer": "Free band"
+  },
+  {
+    "id": 7,
+    "name": "Laptop Stand",
+    "brand": "DeskPro",
+    "vendor": "OfficeMart",
+    "price": 25,
+    "description": "Adjustable aluminum laptop stand.",
+    "offer": "No offer"
+  },
+  {
+    "id": 8,
+    "name": "USB-C Hub",
+    "brand": "ConnectX",
+    "vendor": "GadgetWorld",
+    "price": 40,
+    "description": "Multiport USB-C hub with HDMI and USB 3.0.",
+    "offer": "10% off"
+  },
+  {
+    "id": 9,
+    "name": "Wireless Charger",
+    "brand": "ChargeUp",
+    "vendor": "TechStore",
+    "price": 30,
+    "description": "Fast wireless charger for smartphones.",
+    "offer": "Buy 2 Get 1 Free"
+  },
+  {
+    "id": 10,
+    "name": "Mechanical Keyboard",
+    "brand": "KeyMaster",
+    "vendor": "GameHub",
+    "price": 90,
+    "description": "RGB mechanical keyboard with blue switches.",
+    "offer": "Free keycaps"
+  },
+  {
+    "id": 11,
+    "name": "Noise Cancelling Earbuds",
+    "brand": "SoundMax",
+    "vendor": "MusicLand",
+    "price": 70,
+    "description": "In-ear noise cancelling earbuds.",
+    "offer": "15% discount"
+  },
+  {
+    "id": 12,
+    "name": "Smartphone Gimbal",
+    "brand": "SteadyCam",
+    "vendor": "TechStore",
+    "price": 110,
+    "description": "3-axis smartphone gimbal stabilizer.",
+    "offer": "Free tripod"
+  },
+  {
+    "id": 13,
+    "name": "External SSD",
+    "brand": "DataFast",
+    "vendor": "StorageWorld",
+    "price": 150,
+    "description": "1TB external SSD with USB 3.1.",
+    "offer": "20% off"
+  },
+  {
+    "id": 14,
+    "name": "Gaming Chair",
+    "brand": "ComfortSeat",
+    "vendor": "GameHub",
+    "price": 200,
+    "description": "Ergonomic gaming chair with adjustable height.",
+    "offer": "Free lumbar pillow"
+  },
+  {
+    "id": 15,
+    "name": "Smart Light Bulb",
+    "brand": "BrightHome",
+    "vendor": "HomeStore",
+    "price": 25,
+    "description": "WiFi-enabled smart LED bulb.",
+    "offer": "Buy 3 Get 1 Free"
+  },
+  {
+    "id": 16,
+    "name": "Action Camera",
+    "brand": "AdventureCam",
+    "vendor": "TechStore",
+    "price": 130,
+    "description": "Waterproof 4K action camera.",
+    "offer": "Free memory card"
+  },
+  {
+    "id": 17,
+    "name": "Portable Projector",
+    "brand": "ViewPlus",
+    "vendor": "ScreenMart",
+    "price": 250,
+    "description": "Compact portable projector with HDMI.",
+    "offer": "10% off"
+  },
+  {
+    "id": 18,
+    "name": "Wireless Mouse",
+    "brand": "ClickPro",
+    "vendor": "GadgetWorld",
+    "price": 25,
+    "description": "Ergonomic wireless mouse with silent click.",
+    "offer": "No offer"
+  },
+  {
+    "id": 19,
+    "name": "Laptop Backpack",
+    "brand": "TravelPro",
+    "vendor": "OfficeMart",
+    "price": 60,
+    "description": "Water-resistant laptop backpack.",
+    "offer": "Free keychain"
+  },
+  {
+    "id": 20,
+    "name": "Smart Thermostat",
+    "brand": "EcoHome",
+    "vendor": "HomeStore",
+    "price": 180,
+    "description": "Smart thermostat with app control.",
+    "offer": "15% discount"
+  },
+  {
+    "id": 21,
+    "name": "Bluetooth Earphones",
+    "brand": "SoundMax",
+    "vendor": "MusicLand",
+    "price": 50,
+    "description": "True wireless Bluetooth earphones.",
+    "offer": "5% off"
+  },
+  {
+    "id": 22,
+    "name": "USB Flash Drive",
+    "brand": "DataFast",
+    "vendor": "StorageWorld",
+    "price": 15,
+    "description": "64GB USB 3.0 flash drive.",
+    "offer": "No offer"
+  },
+  {
+    "id": 23,
+    "name": "Desktop Microphone",
+    "brand": "SoundPro",
+    "vendor": "TechStore",
+    "price": 70,
+    "description": "USB desktop microphone for streaming.",
+    "offer": "Free pop filter"
+  },
+  {
+    "id": 24,
+    "name": "Smart Door Lock",
+    "brand": "SecureHome",
+    "vendor": "HomeStore",
+    "price": 220,
+    "description": "Keyless smart door lock with app.",
+    "offer": "20% off"
+  },
+  {
+    "id": 25,
+    "name": "Tablet Stand",
+    "brand": "DeskPro",
+    "vendor": "OfficeMart",
+    "price": 20,
+    "description": "Adjustable tablet stand.",
+    "offer": "No offer"
+  },
+  {
+    "id": 26,
+    "name": "Wireless Keyboard",
+    "brand": "KeyMaster",
+    "vendor": "GadgetWorld",
+    "price": 45,
+    "description": "Compact wireless keyboard.",
+    "offer": "10% off"
+  },
+  {
+    "id": 27,
+    "name": "Smartphone Case",
+    "brand": "CoverUp",
+    "vendor": "TechStore",
+    "price": 15,
+    "description": "Shockproof smartphone case.",
+    "offer": "Buy 2 Get 1 Free"
+  },
+  {
+    "id": 28,
+    "name": "HD Webcam",
+    "brand": "ClearView",
+    "vendor": "TechStore",
+    "price": 80,
+    "description": "1080p HD webcam with mic.",
+    "offer": "Free tripod"
+  },
+  {
+    "id": 29,
+    "name": "Gaming Headset",
+    "brand": "SoundMax",
+    "vendor": "GameHub",
+    "price": 85,
+    "description": "Surround sound gaming headset.",
+    "offer": "15% discount"
+  },
+  {
+    "id": 30,
+    "name": "Portable Charger",
+    "brand": "ChargeUp",
+    "vendor": "GadgetWorld",
+    "price": 40,
+    "description": "10000mAh portable charger.",
+    "offer": "No offer"
+  },
+  {
+    "id": 31,
+    "name": "Smart Scale",
+    "brand": "FitLife",
+    "vendor": "HealthStore",
+    "price": 55,
+    "description": "Bluetooth smart scale with app.",
+    "offer": "5% off"
+  },
+  {
+    "id": 32,
+    "name": "Electric Toothbrush",
+    "brand": "CleanSmile",
+    "vendor": "HealthStore",
+    "price": 35,
+    "description": "Rechargeable electric toothbrush.",
+    "offer": "Free replacement heads"
+  },
+  {
+    "id": 33,
+    "name": "Noise Cancelling Headphones",
+    "brand": "SoundMax",
+    "vendor": "MusicLand",
+    "price": 120,
+    "description": "Over-ear noise cancelling headphones.",
+    "offer": "10% off"
+  },
+  {
+    "id": 34,
+    "name": "Smart Plug",
+    "brand": "BrightHome",
+    "vendor": "HomeStore",
+    "price": 25,
+    "description": "WiFi-enabled smart plug.",
+    "offer": "No offer"
+  },
+  {
+    "id": 35,
+    "name": "VR Headset",
+    "brand": "VisionX",
+    "vendor": "TechStore",
+    "price": 300,
+    "description": "Virtual reality headset with controllers.",
+    "offer": "20% off"
+  },
+  {
+    "id": 36,
+    "name": "Wireless Earbuds",
+    "brand": "ClickPro",
+    "vendor": "MusicLand",
+    "price": 60,
+    "description": "True wireless stereo earbuds.",
+    "offer": "Free charging case"
+  },
+  {
+    "id": 37,
+    "name": "Smart Camera",
+    "brand": "SecureHome",
+    "vendor": "HomeStore",
+    "price": 150,
+    "description": "WiFi security camera with night vision.",
+    "offer": "Free installation"
+  },
+  {
+    "id": 38,
+    "name": "Bluetooth Keyboard",
+    "brand": "KeyMaster",
+    "vendor": "GadgetWorld",
+    "price": 50,
+    "description": "Slim Bluetooth keyboard.",
+    "offer": "10% off"
+  },
+  {
+    "id": 39,
+    "name": "Wireless Router",
+    "brand": "NetConnect",
+    "vendor": "TechStore",
+    "price": 90,
+    "description": "Dual band wireless router.",
+    "offer": "No offer"
+  },
+  {
+    "id": 40,
+    "name": "Smartwatch Band",
+    "brand": "FitLife",
+    "vendor": "HealthStore",
+    "price": 20,
+    "description": "Silicone smartwatch band.",
+    "offer": "Buy 2 Get 1 Free"
+  },
+  {
+    "id": 41,
+    "name": "Laptop Cooling Pad",
+    "brand": "DeskPro",
+    "vendor": "OfficeMart",
+    "price": 35,
+    "description": "Cooling pad with 3 fans.",
+    "offer": "No offer"
+  },
+  {
+    "id": 42,
+    "name": "Portable Bluetooth Speaker",
+    "brand": "BeatBox",
+    "vendor": "MusicLand",
+    "price": 55,
+    "description": "Compact speaker with 12-hour battery.",
+    "offer": "Free carrying case"
+  },
+  {
+    "id": 43,
+    "name": "Gaming Mouse Pad",
+    "brand": "ClickPro",
+    "vendor": "GameHub",
+    "price": 15,
+    "description": "Extended size gaming mouse pad.",
+    "offer": "No offer"
+  },
+  {
+    "id": 44,
+    "name": "Smart Light Switch",
+    "brand": "BrightHome",
+    "vendor": "HomeStore",
+    "price": 35,
+    "description": "WiFi smart light switch.",
+    "offer": "10% off"
+  },
+  {
+    "id": 45,
+    "name": "USB-C Charger",
+    "brand": "ChargeUp",
+    "vendor": "TechStore",
+    "price": 25,
+    "description": "Fast USB-C charger 30W.",
+    "offer": "No offer"
+  },
+  {
+    "id": 46,
+    "name": "Smart Doorbell",
+    "brand": "SecureHome",
+    "vendor": "HomeStore",
+    "price": 130,
+    "description": "WiFi video doorbell.",
+    "offer": "Free cloud storage"
+  },
+  {
+    "id": 47,
+    "name": "Laptop Sleeve",
+    "brand": "TravelPro",
+    "vendor": "OfficeMart",
+    "price": 25,
+    "description": "Water-resistant laptop sleeve.",
+    "offer": "No offer"
+  },
+  {
+    "id": 48,
+    "name": "Wireless Charging Pad",
+    "brand": "ChargeUp",
+    "vendor": "TechStore",
+    "price": 35,
+    "description": "Qi-certified wireless charging pad.",
+    "offer": "10% off"
+  },
+  {
+    "id": 49,
+    "name": "Bluetooth Car Adapter",
+    "brand": "DriveTech",
+    "vendor": "AutoStore",
+    "price": 45,
+    "description": "Bluetooth adapter for car stereo.",
+    "offer": "Free USB cable"
+  },
+  {
+    "id": 50,
+    "name": "Smart Home Hub",
+    "brand": "EcoHome",
+    "vendor": "HomeStore",
+    "price": 180,
+    "description": "Smart home control hub.",
+    "offer": "20% discount"
+  }
+]
