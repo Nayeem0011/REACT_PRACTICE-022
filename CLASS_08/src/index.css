@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+  themes: light --default, dark --prefersdark, cupcake;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
