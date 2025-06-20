@@ -1,22 +1,44 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const ProductDetails = () => {
   const { id } = useParams();
-  const [products, setProducts] = useState([]);
+  const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    fetch("./products.JSON")
-      .then((response) => response.json())
-      .then((data) => setProducts(data));
-  }, []);
-  console.log(products, id)
+    fetch("/products.JSON")
+      .then((res) => res.json())
+      .then((data) => {
+        const matchedProduct = data.find((item) => item.id.toString() === id);
+        setProduct(matchedProduct);
+      });
+  }, [id]);
+
+  if (!product) {
+    return <div className="text-center mt-10">Product Details Is Lording</div>;
+  }
+
+  const { name, brand, vendor, price, description, offer } = product;
 
   return (
-    <Fragment>
-      <h1>Product Details Page</h1>
-    </Fragment>
+    <div className="max-w-xl mx-auto p-6 bg-white shadow text-gray-700 rounded">
+      <h1 className="text-3xl font-bold mb-4">{name}</h1>
+      <p>
+        <strong>Brand:</strong> {brand}
+      </p>
+      <p>
+        <strong>Vendor:</strong> {vendor}
+      </p>
+      <p>
+        <strong>Description:</strong> {description}
+      </p>
+      <p>
+        <strong className="text-red-700" >Offer:</strong> {offer}
+      </p>
+      <p className="text-green-600 font-bold mt-2">Price: ${price}</p>
+    </div>
   );
 };
 
 export default ProductDetails;
+

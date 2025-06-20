@@ -5,6 +5,7 @@ import ProductAll from "../component/products/ProductAll";
 import ProductDetails from "../component/products/ProductDetails";
 import Login from "../pages/Login";
 import SingUp from "../pages/SingUp";
+import PrivateRoute from "./PrivateRoute";
 
 export const routes = createBrowserRouter([
     {
@@ -21,7 +22,7 @@ export const routes = createBrowserRouter([
             },
             {
                 path:"/product/:id",
-                element:<ProductDetails/>
+                element:<PrivateRoute><ProductDetails/></PrivateRoute>
             },
         ]
     },

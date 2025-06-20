@@ -1,16 +1,35 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom";
+import { useSignOut } from 'react-firebase-hooks/auth';
+import { auth } from '../../utils/firebase';
+import { toast } from "react-hot-toast";
 
 const Header = () => {
 
-  const menuItems = [
-    {name: "Home", path: "/"},
-    {name: "About", path: "/about"},
-    {name: "Contact", path: "/contact"},
-    {name: "Product", path: "/product"},
-    {name: "Login", path: "/login"},
-    {name: "Sing Up", path: "/singup"},
-  ]
+  const navigate = useNavigate();
+  const user = localStorage.getItem("token")
+  const [signOut] = useSignOut(auth);
+  // const menuItems = [
+  //   {name: "Home", path: "/"},
+  //   {name: "About", path: "/about"},
+  //   {name: "Contact", path: "/contact"},
+  //   {name: "Product", path: "/product"},
+  //   {name: "Login", path: "/login"},
+  //   {name: "Sing Up", path: "/singup"},
+  // ]
+  const handleSignOut  = async() => {
+    try {
+      const respose = await signOut()
+      if (respose) {
+        alert("You are sing out")
+        toast.success("Sing out successfully!")
+        localStorage.removeItem("token")
+        navigate("/login")
+      }
+    } catch (error) {
+      toast.error(error.message);
+    }
+  }
 
   return (
     <Fragment>
@@ -24,17 +43,34 @@ const Header = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <li><Link to={"/"}>Home</Link></li>
+          <li><Link to={"/about"}>About</Link></li>
+          <li><Link to={"/contact"}>Contact</Link></li>
+          <li><Link to={"/product"}>Product</Link></li>
           {
-            menuItems.map((item, index) =><li key={index}><Link to={`${item.path}`}>{item.name}</Link></li>)
+            user ? <li><button onClick={handleSignOut }>Sing Out</button></li>:
+            <>
+            <li><Link to={"/login"}>Login</Link></li>
+            <li><Link to={"/singup"}>Sing Up</Link></li>
+            </>
           }
+          
       </ul>
     </div>
     <Link className="btn btn-ghost text-xl">Logo</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
+          <li><Link to={"/"}>Home</Link></li>
+          <li><Link to={"/about"}>About</Link></li>
+          <li><Link to={"/contact"}>Contact</Link></li>
+          <li><Link to={"/product"}>Product</Link></li>
           {
-            menuItems.map((item, index) =><li key={index}><Link to={`${item.path}`}>{item.name}</Link></li>)
+            user ? <li><button onClick={handleSignOut }>Sing Out</button></li>:
+            <>
+            <li><Link to={"/login"}>Login</Link></li>
+            <li><Link to={"/singup"}>Sing Up</Link></li>
+            </>
           }
     </ul>
   </div>
