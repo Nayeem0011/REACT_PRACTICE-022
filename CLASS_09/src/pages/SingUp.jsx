@@ -106,7 +106,7 @@ const SingUp = () => {
           <div>
             {loading ? (
               <div className="flex justify-center">
-                <span className="loading loading-dots loading-md loading-md text-blue-500"></span>
+                <span className="loading loading-dots loading-md  text-blue-500"></span>
               </div>
             ) : (
               <div>
